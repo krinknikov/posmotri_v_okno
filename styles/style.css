@@ -80,7 +80,7 @@ video {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding-top: 10px;
+  padding-top: 21px;
 }
 
 .result__video {
@@ -110,11 +110,10 @@ video {
   gap: 5px;
 }
 
-.search-form__labe-text:hover {
+.search-form__label:hover {
   text-decoration: underline 1px #FFF;
   text-underline-offset: 5px;
-}
-
+} /*вроде ховер по макету, добавляется на текст чекбоксов, кнопки и у абзацев кард тайтлов, не понимаю что не так*/
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #FFF;
